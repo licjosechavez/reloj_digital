@@ -9,6 +9,7 @@ function generateTime() {
   
     let mainTime = `${hours}:${minutes}:${seconds}`;
     
+    document.getElementById("time").innerHTML = mainTime;
   
 }
 
